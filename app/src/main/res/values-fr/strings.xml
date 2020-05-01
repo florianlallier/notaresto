@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity -->
+    <string name="app_name">Notaresto</string>
+    <!-- Menu de MainActivity -->
+    <string name="menu_search">Recherche</string>
+    <string name="menu_advanced_search">Recherche avancée</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_about">À propos</string>
+    <string name="menu_exit">Quitter</string>
+    <!-- Boîte de dialogue "À propos" de MainActivity -->
+    <string name="about_title">À propos de Notaresto</string>
+    <string name="about_ok">OK</string>
+    <string name="about_version">Version :</string>
+    <string name="about_source">Source :</string>
+    <string name="about_source_link">https://github.com/florianlallier/notaresto</string>
+    <string name="about_mail">Courriel :</string>
+    <string name="about_mail_developer">contact@florianlallier.fr</string>
+    <string name="about_developer">Développé par Florian Lallier.</string>
+    <string name="about_license">Publiée sous licence GNU GPLv3.</string>
+    <!-- Boîte de dialogue "Quitter" de MainActivity -->
+    <string name="exit_title">Souhaitez-vous vraiment quitter Notaresto ?</string>
+    <string name="exit_yes">Oui</string>
+    <string name="exit_no">Non</string>
+    <!-- Recherche dans MainActivity -->
+    <string name="search_hint">Adresse, ville, restaurant…</string>
+    <!-- SearchRestaurantsActivity -->
+    <string name="title_activity_search_restaurants">Résultats de la recherche</string>
+    <!-- Menu de SearchRestaurantsActivity -->
+    <string name="menu_insert">Ajouter</string>
+    <!-- InsertRestaurantActivity -->
+    <string name="title_activity_insert_restaurant">Ajouter un restaurant</string>
+    <string name="insert_title">Entrez les informations concernant le restaurant à ajouter :</string>
+    <string name="inserted_restaurant">Restaurant ajouté</string>
+    <!-- Menu de InsertRestaurantActivity -->
+    <string name="menu_save">Enregistrer</string>
+    <string name="incomplete_form">Formulaire incomplet</string>
+    <string name="required_fields">* Champs obligatoires.</string>
+    <!-- RestaurantActivity -->
+    <string name="title_activity_restaurant">Restaurant</string>
+    <string name="invite_subject">[Notaresto] Invitation</string>
+    <string name="invite_text">Salut ! Ça te dit de venir au restaurant \"%1$s\" avec moi ?!\n(invitation générée automatiquement par l\'application Notaresto)</string>
+    <string name="invite_application">Avec quelle application souhaitez-vous inviter votre ami ?</string>
+    <string name="not_phone">Pas de numéro de téléphone</string>
+    <string name="not_website">Pas de site web</string>
+    <string name="not_mail">Pas d\'adresse e-mail</string>
+    <string name="inserted_contact">Contact ajouté</string>
+    <string name="not_inserted_contact">Contact non ajouté</string>
+    <!-- Menu de RestaurantActivity -->
+    <string name="menu_update">Modifier</string>
+    <string name="menu_delete">Supprimer</string>
+    <string name="menu_map">Visualiser dans Google Maps</string>
+    <string name="menu_call">Appeler</string>
+    <string name="menu_contact">Ajouter aux contacts</string>
+    <string name="menu_website">Visiter le site web</string>
+    <string name="menu_mail">Contacter par e-mail</string>
+    <string name="menu_invite">Inviter un ami</string>
+    <string name="menu_calendar">Créer un nouvel événement</string>
+    <!-- Boîte de dialogue "Supprimer" de RestaurantActivity -->
+    <string name="delete_title">Souhaitez-vous vraiment supprimer ce restaurant ?</string>
+    <string name="delete_yes">Oui</string>
+    <string name="delete_no">Non</string>
+    <string name="deleted_restaurant">Restaurant supprimé</string>
+    <!-- UpdateRestaurantActivity -->
+    <string name="title_activity_update_restaurant">Modifier un restaurant</string>
+    <string name="update_title">Entrez les informations concernant le restaurant à modifier :</string>
+    <string name="updated_restaurant">Restaurant modifié</string>
+    <!-- AdvancedSearchRestaurantsActivity -->
+    <string name="title_activity_advanced_search_restaurants">Recherche avancée</string>
+    <string name="advanced_search_restaurants_search">Rechercher</string>
+    <!-- WebsiteRestaurantActivity -->
+    <string name="title_activity_website_restaurant">Site web</string>
+    <!-- Menu de WebsiteRestaurantActivity -->
+    <string name="menu_navigator">Ouvrir dans un navigateur web</string>
+    <!-- PreferencesActivity -->
+    <string name="title_activity_preferences">Paramètres</string>
+    <string name="preferences_currency">Unité monétaire</string>
+    <!-- Boîte de dialogue "Unité monétaire" de PreferencesActivity -->
+    <string name="currency_title">Unité monétaire</string>
+    <string name="currency_yes">Ok</string>
+    <string name="currency_no">Annuler</string>
+    <!-- Autres -->
+    <string name="restaurant_name">Nom</string>
+    <string name="restaurant_name_star">Nom *</string>
+    <string name="restaurant_address">Adresse</string>
+    <string name="restaurant_address_star">Adresse *</string>
+    <string name="restaurant_phone">Numéro de téléphone</string>
+    <string name="restaurant_website">Site web</string>
+    <string name="restaurant_mail">Adresse e-mail</string>
+    <string-array name="restaurant_price">
+        <item>Catégorie de prix</item>
+        <item>0 – 10</item> <!-- Ne pas modifier quelle que soit la langue -->
+        <item>10 – 20</item> <!-- Ne pas modifier quelle que soit la langue -->
+        <item>20 – 30</item> <!-- Ne pas modifier quelle que soit la langue -->
+        <item>30 – 50</item> <!-- Ne pas modifier quelle que soit la langue -->
+        <item>50 – 100</item> <!-- Ne pas modifier quelle que soit la langue -->
+        <item>+ 100</item> <!-- Ne pas modifier quelle que soit la langue -->
+    </string-array>
+    <string name="restaurant_cuisine">Type de cuisine</string>
+    <string name="restaurant_comment">Commentaire</string>
+    <string name="restaurant_note_min">Note minimum</string>
+    <string name="restaurant_note_max">Note maximum</string>
+    <string name="currency">Euro</string> <!-- Valeurs possibles : "Euro", "Dollar", "円", "Pound" -->
+</resources>

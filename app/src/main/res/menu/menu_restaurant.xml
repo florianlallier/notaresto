@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.florianlallier.notaresto.RestaurantActivity">
+
+    <item
+        android:id="@+id/menu_update"
+        android:title="@string/menu_update"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_update" />
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/menu_delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_delete" />
+
+    <item
+        android:id="@+id/menu_map"
+        android:title="@string/menu_map"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_call"
+        android:title="@string/menu_call"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_contact"
+        android:title="@string/menu_contact"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_website"
+        android:title="@string/menu_website"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_mail"
+        android:title="@string/menu_mail"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_invite"
+        android:title="@string/menu_invite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_calendar"
+        android:title="@string/menu_calendar"
+        app:showAsAction="never" />
+
+</menu>

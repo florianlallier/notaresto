@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.florianlallier.notaresto.SearchActivity">
+
+    <item
+        android:id="@+id/menu_insert"
+        android:title="@string/menu_insert"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_insert" />
+
+</menu>
