@@ -17,7 +17,7 @@
     <string name="about_mail">E-mail :</string>
     <string name="about_mail_developer">contact@florianlallier.fr</string>
     <string name="about_developer">Developed by Florian Lallier.</string>
-    <string name="about_license">Published under the GNU GPLv3 license.</string>
+    <string name="about_license">Published under the MIT License.</string>
     <!-- Boîte de dialogue "Quitter" de MainActivity -->
     <string name="exit_title">Do you wish to close Notaresto?</string>
     <string name="exit_yes">Yes</string>
